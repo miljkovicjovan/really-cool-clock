@@ -49,20 +49,20 @@ var updateClock = function()
     var image = "images/day.jpg";
 
     // Changing the background image during different parts of the day
-    if (time < morning)
-    {
-        image = "images/night.jpg";
-    }
-    else if (time < day)
+    if (time > 6 && time < 12)
     {
         image = "images/morning.jpg";
     }
-    else if (time < evening)
+    else if (time > 12 && time < 17)
     {
         image = "images/day.jpg";
     }
-    else {
+    else if (time > 17 && time < 21)
+    {
         image = "images/evening.jpg";
+    }
+    else if (time > 21 && time > 6){
+        image = "images/night.jpg";
     }
 
     wallpaper.src = image;
