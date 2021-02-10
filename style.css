@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+/* not allow scrolling */
+html {
+    overflow: hidden;
+}
+
+body {
+    margin: 0;
+    font-family: Roboto;
+}
+
+img {
+    width: 100%;
+    height: 100%;
+}
+
+.hero {
+    text-align: center;
+}
+
+.hero h3 {
+    padding: 0.6rem;
+    font-size: 3rem;
+    position: absolute;
+    backdrop-filter: blur(3px);
+    letter-spacing: 0.1rem;
+    color: rgb(250, 245, 245);
+    border-radius: 2rem;
+    border: 0.15rem solid rgb(184, 182, 182);
+    top: 11rem;
+    left: 22%;
+    right: 22%;
+    width: 56%;
+}
+
+.hero h2 {
+    position: absolute;
+    font-size: 3.5rem;
+    letter-spacing: 0.1rem;
+    color: rgb(243, 235, 235);
+    backdrop-filter: blur(30px);
+    border: 0.3rem solid rgb(184, 182, 182);
+    border-radius: 1rem;
+    top: 18rem;
+    left: 35%;
+    right: 35%;
+    width: 30%;
+}
